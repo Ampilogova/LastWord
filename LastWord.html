@@ -4,221 +4,181 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
-  <style>
-    .table-container {
-      margin-left: auto;
-      margin-right: auto;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 300px;
-    }
-  </style>
-
-
 </head>
 <body>
     <header>
-   	<div class="button-group">
-           <button class="custom-button">Подкаст</button>
-           <button class="custom-button">Доп.информ</button>
-	         <button id="contacts" class="custom-button">Контакты</button>
-         </div>
+        <div class="button-group">
+            <button class="custom-button">Home</button>
+            <button class="custom-button">Доп.информ</button>
+            <button id="contacts" class="custom-button">Контакты</button>
+        </div>
         <img src="/Users/tatianaampilogova/Docs/LastWord/images/headerLW.png" alt="headerLW"> 
     </header>
 
-    <div class="years-stack ">
-      <div class="left-stack">
-        <ul>
-          <li><a href="#section1">1920–1930</a></li>
-          <li><a href="#section2">1930–1940</a></li>
-          <li><a href="#section3">1940–1950</a></li>
-          <li><a href="#section4">1960–1970</a></li>
-          <li><a href="#section5">1970–1980</a></li>
-          <li><a href="#section6">1980–1990</a></li>
-          <li><a href="#section7">1990–2000</a></li>
-          <li><a href="#section8">2000–2010</a></li>
-          <li><a href="#section9">2010–2020</a></li>
-          <li><a href="#section10">Наши дни</a></li>
-      </ul>
-    </div>
-    <div class="center-stack">
-
-      <div id="section1"></div>
-       <tr>
-      <label for="custom-input" class="custom-titleLabel">1920-1930</label>
+    <div class="table-container">
+        <div class="left-stack">
+            <ul>
+                <li><a href="#section1" class="custom-yearsLabel">1920–1930</a></li>
+                <li><a href="#section2" class="custom-yearsLabel">1930–1940</a></li>
+                <li><a href="#section3" class="custom-yearsLabel">1940–1950</a></li>
+                <li><a href="#section4" class="custom-yearsLabel">1960–1970</a></li>
+                <li><a href="#section5" class="custom-yearsLabel">1970–1980</a></li>
+                <li><a href="#section6" class="custom-yearsLabel">1980–1990</a></li>
+                <li><a href="#section7" class="custom-yearsLabel">1990–2000</a></li>
+                <li><a href="#section8" class="custom-yearsLabel">2000–2010</a></li>
+                <li><a href="#section9" class="custom-yearsLabel">2010–2020</a></li>
+                <li><a href="#section10" class="custom-yearsLabel">Наши дни</a></li>
+            </ul>
+        </div>
+        <div class="right-stack">
+            <table class="table">
+                <tr>
+                    <td>
+                        <div id="section1">
+                            <label for="custom-input" class="custom-titleLabel">1920-1930</label>
+                            <h2></h2>
+                            <label id="Krizhanovsky" for="custom-input" class="custom-listLabel">Кржижановский</label>
+                            <label id="Rabinovich" for="custom-input" class="custom-listLabel">Рабинович</label>
+                        </div>
+                    </td>
+                </tr>
+                          <tr>
+              <td>
+                  <div id="section2">
+                    <h2></h2>
+                    <label for="custom-input" class="custom-titleLabel">1930-1940</label>
+                    <h2></h2>
+                      <label for="custom-input" class="custom-listLabel">Бухарин</label>
+                      <label for="custom-input" class="custom-listLabel">Крестинский</label>
+                      <label for="custom-input" class="custom-listLabel">Мейерхольд</label>
+                  </div>
+              </td>
+          </tr>
+          <tr>
+              <td>
+                  <div id="section3">
+                    <h2></h2>
+                    <label for="custom-input" class="custom-titleLabel">1940-1950</label>
+                    <h2></h2>
+                      <label for="custom-input" class="custom-listLabel">Дело Еврейского антифашисткого комитета</label>
+                  </div>
+              </td>
+          </tr>
+          <tr>
+              <td>
+                  <div id="section4">
+                    <h2></h2>
+                    <label for="custom-input" class="custom-titleLabel">1960-1970</label>
+                      <h2></h2>
+                      <label for="custom-input" class="custom-listLabel">Бродский</label>
+                      <label for="custom-input" class="custom-listLabel">Гинзбург</label>
+                      <label for="custom-input" class="custom-listLabel">Даниэль</label>
+                  </div>
+              </td>
+          </tr>
+          <tr>
+            <td>
+                <div id="section5">
+                  <h2></h2>
+                  <label for="custom-input" class="custom-titleLabel">1970-1980</label>
+                      <h2></h2>
+                    <label for="custom-input" class="custom-listLabel">Любарский</label>
+                </div>
+            </td>
+        </tr>
+        <td>
+          <div id="section6">
+            <h2></h2>
+            <label for="custom-input" class="custom-titleLabel">1980-1990</label>
+                      <h2></h2>
+              <label for="custom-input" class="custom-listLabel">Рогинский</label>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+              <div id="section7">
+                <h2></h2>
+                <label for="custom-input" class="custom-titleLabel">1990-2000</label>
+                      <h2></h2>
+                  <label for="custom-input" class="custom-listLabel">Новодворская</label>
+              </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div id="section8">
+              <h2></h2>
+              <label for="custom-input" class="custom-titleLabel">2000-2010</label>
+               <h2></h2>
+                <label for="custom-input" class="custom-listLabel">Ходорковский</label>
+            </div>
+        </td>
     </tr>
     <tr>
-        <label id="Krizhanovsky" for="custom-input" class="custom-listLabel">Кржижановский</label>
-    </tr>
-    <tr>
-        <label id="Rabinovich" for="custom-input" class="custom-listLabel">Рабинович</label>
-    </tr>
-
-    
-    <div id="section2"></div>
-    <h2></h2>
-    <tr>
-        <label for="custom-input" class="custom-titleLabel">1930-1940</label>
-      </tr>
-      <tr>
-        <label for="custom-input" class="custom-listLabel">Бухарин</label>
-      </tr>
-      <tr>
-        <label for="custom-input" class="custom-listLabel">Крестинский</label>
-      </tr>
-      <tr>
-        <label for="custom-input" class="custom-listLabel">Мейерхольд</label>
-      </tr>
-
-      <div id="section3">
-      <h2></h2>
-      <tr>
-        <label id="1920" for="custom-input" class="custom-titleLabel">1940-1950</label>
-      </tr>
-      </div>
-      <tr>
-        <label for="custom-input" class="custom-listLabel">Дело Еврейского антифашисткого комитета</label>
-      </tr>
-
-      <div id="section4"></div>
-      <h2></h2>
-      <tr>
-        <label for="custom-input" class="custom-titleLabel">1960-1970</label>
-      </tr>
-      <tr>
-        <label for="custom-input" class="custom-listLabel">Бродский</label>
-      </tr>
-      <tr>
-        <label for="custom-input" class="custom-listLabel">Гинзбург</label>
-      </tr>
-       <tr>
-        <label for="custom-input" class="custom-listLabel">Даниэль</label>
-      </tr>
-
-
-      <div id="section5"></div>
-      <h2></h2>
-      <tr>
-      <label for="custom-input" class="custom-titleLabel">1970-1980</label>
-    </tr>
-    <tr>
-      <label for="custom-input" class="custom-listLabel">Любарский</label>
-    </tr>
-
-    <div id="section6"></div>
-    <h2></h2>
-    <tr>
-    <label for="custom-input" class="custom-titleLabel">1980-1990</label>
+      <td>
+          <div id="section9">
+            <h2></h2>
+            <label for="custom-input" class="custom-titleLabel">2010-2020</label>
+             <h2></h2>
+              <label for="custom-input" class="custom-listLabel">Дело 7 Студии</label>
+              <label for="custom-input" class="custom-listLabel">Мохнаткин</label>
+              <label for="custom-input" class="custom-listLabel">Саутиева</label>
+          </div>
+      </td>
   </tr>
   <tr>
-    <label for="custom-input" class="custom-listLabel">Рогинский</label>
+    <td>
+        <div id="section10">
+          <h2></h2>
+          <label for="custom-input" class="custom-titleLabel">Наши дни</label>
+          <h2></h2>
+            <label for="custom-input" class="custom-listLabel">Алехина</label>
+                <label for="custom-input" class="custom-listLabel">Арамян</label>
+                <label for="custom-input" class="custom-listLabel">Горинов</label>
+                <label for="custom-input" class="custom-listLabel">Гутникова</label>
+                <label for="custom-input" class="custom-listLabel">Кара-Мурза</label>
+                <label for="custom-input" class="custom-listLabel">Навальный</label>
+                <label for="custom-input" class="custom-listLabel">Новашов</label>
+                <label for="custom-input" class="custom-listLabel">Пивоваров</label>
+                <label for="custom-input" class="custom-listLabel">Пономаренко</label>
+                <label for="custom-input" class="custom-listLabel">Сафронов</label>
+                <label for="custom-input" class="custom-listLabel">Скочиленко</label>
+                <label for="custom-input" class="custom-listLabel">Чанышева</label>
+                <label for="custom-input" class="custom-listLabel">Яшин</label>
+
+        </div>
+    </td>
   </tr>
-
-  <div id="section7"></div>
-  <h2></h2>
-  <tr>
-  <label for="custom-input" class="custom-titleLabel">1990-2000</label>
-</tr>
-<tr>
-  <label for="custom-input" class="custom-listLabel">Новодворская</label>
-</tr>
-
-<div id="section8"></div>
-<h2></h2>
-<tr>
-  <label for="custom-input" class="custom-titleLabel">2000-2010</label>
-</tr>
-<tr>
-  <label for="custom-input" class="custom-listLabel">Ходорковский</label>
-</tr>
-
-<div id="section9"></div>
-<h2></h2>
-<tr>
-  <label for="custom-input" class="custom-titleLabel">2010-2020</label>
-</tr>
-<tr>
-  <label for="custom-input" class="custom-listLabel">Дело 7 Студии</label>
-</tr>
-<tr>
-  <label for="custom-input" class="custom-listLabel">Мохнаткин</label>
-</tr>
-<tr>
-  <label for="custom-input" class="custom-listLabel">Саутиева</label>
-</tr>
-
-<div id="section10"></div>
-<h2></h2>
-<tr>
-<label for="custom-input" class="custom-titleLabel">2020-настоящее время</label>
-</tr>
-<tr>
-  <label for="custom-input" class="custom-listLabel">Алехина</label>
-</tr>
-<tr>
-  <label for="custom-input" class="custom-listLabel">Арамян</label>
-</tr>
-<tr>
-  <label for="custom-input" class="custom-listLabel">Горинов</label>
-</tr>
-<tr>
-  <label for="custom-input" class="custom-listLabel">Гутникова</label>
-</tr>
-<tr>
-  <label for="custom-input" class="custom-listLabel">Кара-Мурза</label>
-</tr>
-<tr>
-  <label for="custom-input" class="custom-listLabel">Навальный</label>
-</tr>
- <tr>
-  <label for="custom-input" class="custom-listLabel">Новашов</label>
- </tr>
-  <tr>
-    <label for="custom-input" class="custom-listLabel">Пивоваров</label>
-  </tr>
-  <tr>
-    <label for="custom-input" class="custom-listLabel">Пономаренко</label>
-</tr>
-<tr>
-  <label for="custom-input" class="custom-listLabel">Сафронов</label>
-</tr>
-<tr>
-  <label for="custom-input" class="custom-listLabel">Скочиленко</label>
-</tr>
-<tr>
-  <label for="custom-input" class="custom-listLabel">Чанышева</label>
-</tr>
-<tr>
-  <label for="custom-input" class="custom-listLabel">Яшин</label>
-</tr>
-  </div>
 </div>
+                <!-- Add more table rows here -->
+            </table>
+        </div>
+    </div>
 
-
-
-<footer>
-  <div class="footer-buttons">
-    <button class="footer-button">
-     <img src="/Users/tatianaampilogova/Docs/LastWord/images/iconPodcast.png" alt="Подкаст">
-     <span>Подкаст</span>
-    </button>
-    <button class="footer-button">
-      <a href="https://www.youtube.com/@last_word" target="_blank" style="text-decoration: none;">
-     <img src="/Users/tatianaampilogova/Docs/LastWord/images/iconYoutube.png" alt="Youtube">
-     <span>Youtube</span>
-    </a>
-    </button>
-    <button class="footer-button">
-      <a href="https://t.me/podcast_posledneeslovo" target="_blank" style="text-decoration: none;">
-      <img src="/Users/tatianaampilogova/Docs/LastWord/images/iconTelegram.png" alt="Telegram">
-      <span>Telegram</span>
-    </a>
-    </button>
-    <button class="footer-button">
-      <img src="/Users/tatianaampilogova/Docs/LastWord/images/iconInst.png" alt="Instagram">
-      <span>Instagram</span>
-    </button>
-  </div>
-</footer>
+    <footer>
+        <div class="footer-buttons">
+            <button class="footer-button">
+                <img src="/Users/tatianaampilogova/Docs/LastWord/images/iconPodcast.png" alt="Подкаст">
+                <span>Подкаст</span>
+            </button>
+            <button class="footer-button">
+                <a href="https://www.youtube.com/@last_word" target="_blank" style="text-decoration: none;">
+                    <img src="/Users/tatianaampilogova/Docs/LastWord/images/iconYoutube.png" alt="Youtube">
+                    <span>Youtube</span>
+                </a>
+            </button>
+            <button class="footer-button">
+                <a href="https://t.me/podcast_posledneeslovo" target="_blank" style="text-decoration: none;">
+                    <img src="/Users/tatianaampilogova/Docs/LastWord/images/iconTelegram.png" alt="Telegram">
+                    <span>Telegram</span>
+                </a>
+            </button>
+            <button class="footer-button">
+                <img src="/Users/tatianaampilogova/Docs/LastWord/images/iconInst.png" alt="Instagram">
+                <span>Instagram</span>
+            </button>
+        </div>
+    </footer>
+</body>
 </html>
