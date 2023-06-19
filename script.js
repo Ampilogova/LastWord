@@ -8,6 +8,15 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 document.addEventListener("DOMContentLoaded", function() {
+  var contactsButton = document.getElementById("podcast");
+
+  contactsButton.addEventListener("click", function() {
+    this.classList.add("clicked");
+    window.location.href = "LastWord.html";
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
   var contactsButton = document.getElementById("Krizhanovsky");
 
   contactsButton.addEventListener("click", function() {
