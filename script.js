@@ -1,35 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
-  var contactsButton = document.getElementById("contacts");
 
-  contactsButton.addEventListener("click", function() {
-    this.classList.add("clicked");
-    window.location.href = "Contacts.html";
-  });
-});
-
-document.addEventListener("DOMContentLoaded", function() {
-  var contactsButton = document.getElementById("podcast");
-
-  contactsButton.addEventListener("click", function() {
-    this.classList.add("clicked");
-    window.location.href = "LastWord.html";
-  });
-});
-
-document.addEventListener("DOMContentLoaded", function() {
-  var contactsButton = document.getElementById("Krizhanovsky");
-
-  contactsButton.addEventListener("click", function() {
-    this.classList.add("clicked");
-    window.location.href = "1920-1930/Krizhanovsky.html";
-  });
-});
-
-document.addEventListener("DOMContentLoaded", function() {
-  var contactsButton = document.getElementById("Rabinovich");
-
-  contactsButton.addEventListener("click", function() {
-    this.classList.add("clicked");
-    window.location.href = "1920-1930/Rabinovich.html";
-  });
-});
+function navigateToScreen(screenName) {
+  window.location.href = screenName + '.html';
+}

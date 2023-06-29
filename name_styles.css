@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'CustomFont';
+  src: url('/Users/tatianaampilogova/Docs/LastWord/WebServeroff.ttf'); 
+}
+
+body {
+  font-family: 'CustomFont', Arial, sans-serif;
+}
+
+header {
+  position: relative;
+}
+
+.button-group {
+  position: absolute;
+  width: 200px;
+  height: 58px;
+  top: 10px; 
+  right: 10px;
+  bottom: 60 px;
+  display: flex;
+  justify-content: flex-end
+}
+
+.button-group button {
+  margin-right: 10px;
+}
+
+.custom-button {
+  background-color: #ffffff00; 
+  font-family:'CustomFont', Arial, sans-serif;
+  font-weight: 400;
+  color: #000000;
+  padding: 10px 20px;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+header img {
+  margin-top: 100px;
+}
+
+.footer-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-button {
+  width: 150px; 
+  height: 150px;
+  border-radius: 50%;
+  background-color: #ffffff00; 
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+.name-label {
+  word-wrap: break-word;
+  max-width: 600px; 
+  font-weight: 400;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff00; 
+  font-family:'CustomFont', sans-serif;
+  font-weight: 400;
+  color: #000000;
+  padding: 10px 20px;
+  font-size: 36px;
+}
+
+.last-word-text {
+  word-wrap: break-word;
+  max-width: 600px; 
+  font-weight: 400;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16;
+  font-family: 'Verdana';
+}
+
+.footer-buttons span {
+  background-color: #ffffff00; 
+  font-family:'CustomFont', sans-serif;
+  font-size: 24px;
+}
+
+a:visited {
+  color: #000000;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  font-family:'CustomFont', sans-serif;
+  font-weight: 400;
+  color: #000000;
+  padding: 10px 20px;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+}
